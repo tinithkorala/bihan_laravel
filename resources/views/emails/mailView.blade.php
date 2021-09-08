@@ -7,7 +7,10 @@
     <title>Test Mail</title>
 </head>
 <body>
-    <h1>{{$details['title']}}</h1>
-    <p>{{$details['body']}}</p>
+    <h1>{{$details['name']}}</h1>
+    <p>{{$details['phone']}}</p>
+    <p>{{$details['email']}}</p>
+    <p>{{$details['subject']}}</p>
+    <p>{{$details['message']}}</p>
 </body>
 </html>

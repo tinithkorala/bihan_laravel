@@ -46,49 +46,72 @@
             </div>
 
         </div>
-        <!-- /contact details -->
+        
 
         <!-- contact form -->
         <div class="col-lg-6 col-md-12 col-sm-12">
             
-            <form action="">
-
+            <form action="{{ route('contact.sendmail') }}" method="POST">
+                @csrf
                 <div class="row text-white">
 
                     <div class="col-sm-12 col-md-6 col-lg-6 mb-2">
                         <label class="small-paragraph" for="">Name</label>
-                        <input type="text" name="name" id="name" class="form-control">
+                        <input type="text" name="name" id="name" class="form-control" value="{{ old('name') }}">
+                        @error('name')
+                            <p class="fw-bold text-danger">{{ $message }}</p>
+                        @enderror
                     </div>
 
                     <div class="col-sm-12 col-md-6 col-lg-6 mb-2">
                         <label class="small-paragraph" for="">Phone</label>
-                        <input type="tel" name="tel" id="tel" class="form-control">
+                        <input type="text" name="phone" id="phone" class="form-control" value="{{ old('phone') }}">
+                        @error('phone')
+                            <p class="fw-bold text-danger">{{ $message }}</p>
+                        @enderror
                     </div>
 
                     <div class="col-sm-12 col-md-6 col-lg-6 mb-2">
                         <label class="small-paragraph" for="">Subject</label>
-                        <input type="text" name="subject" id="subject" class="form-control">
+                        <input type="text" name="subject" id="subject" class="form-control" value="{{ old('subject') }}">
+                        @error('subject')
+                            <p class="fw-bold text-danger">{{ $message }}</p>
+                        @enderror
                     </div>
 
                     <div class="col-sm-12 col-md-6 col-lg-6 mb-2">
                         <label class="small-paragraph" for="">Email</label>
-                        <input type="email" name="email" id="email" class="form-control">
+                        <input type="email" name="email" id="email" class="form-control" value="{{ old('email') }}">
+                        @error('email')
+                            <p class="fw-bold text-danger">{{ $message }}</p>
+                        @enderror
                     </div>
 
                     <div class="col-sm-12 col-md-12 col-lg-12 mb-2">
                         <label class="small-paragraph" for="">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="6" class="form-control"></textarea>
+                        <textarea name="messageArea" id="messageArea" cols="30" rows="6" class="form-control" >{{ old('message') }}</textarea>
+                        @error('messageArea')
+                            <p class="fw-bold text-danger">{{ $message }}</p>
+                        @enderror
                     </div>
 
-                    <button type="button" class="btn btn-orange btn-contact m-3"><a href="">Submit</a></button>
+                    <button type="submit" class="btn btn-orange btn-contact m-3">Submit</button>
 
                 </div>
 
             </form>
 
+            @if (session('status'))
+                <div class="alert alert-success">
+                    {{ session('status') }}
+                </div>
+            @endif
+
         </div>
         <!-- /contact form -->
 
+        <!-- /contact details -->
+      
     </div>
     
 </div>

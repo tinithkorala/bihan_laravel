@@ -34,5 +34,6 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::post('/sendMail',[MailCotroller::class, 'sendMail'])->name('contact.sendmail');
 
-Route::get('/send',[MailCotroller::class, 'sendMail']);
+// Route::post('/testr',[MailCotroller::class, 'sendMail'])->name('contact.sendmail');
