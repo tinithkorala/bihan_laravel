@@ -9,12 +9,12 @@
 
         <div class="col d-flex flex-column">
             <span class="regular-sm-text">Opening Hours</span>
-            <span class="light-sm-text">Monday - Friday (8.30am to 5.30pm)</span>
+            <span class="light-sm-text">Monday - Friday (9.00 am to 5.00pm)</span>
         </div>
 
         <div class="col d-flex flex-column">
             <span class="regular-sm-text">Phone</span>
-            <span class="light-sm-text">(+94) 11 3 671 616</span>
+            <span class="light-sm-text">(+94) 114 395 800</span>
         </div>
 
         <div class="col d-flex flex-column">

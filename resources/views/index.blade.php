@@ -10,7 +10,7 @@
                 <span class="text-white main-header">to Travel Bag</span>
                 <span class="text-white sub-header mb-3">We have got covered every aspect when it comes to planning your
                     next destination</span>
-                <button type="button" class="btn btn-orange btn-contact"><a href="./contact.html">Contact
+                <button type="button" class="btn btn-orange btn-contact"><a href="{{ url('contact') }}">Contact
                         Us</a></button>
             </div>
         </div>

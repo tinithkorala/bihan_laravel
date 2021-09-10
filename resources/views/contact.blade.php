@@ -4,7 +4,7 @@
 
 <div class="container">
      
-    <div class="row w-100 mt-5">
+    <div class="row w-100 mt-4">
 
         <!-- contact details -->
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -14,13 +14,14 @@
                 <div class="col-sm-12 col-md-12 col-lg-12">
 
                     <p class="regular-paragraph text-light">
-                        Let's get one of our travel experts to guide you through your next travel! Reach us and we'd love to help you out with any inquiries you have with a free consultation.
+                        Let's get one of our travel experts to guide you through your next travel! Reach us and we'd love to help you out 
+                        with inquiries you have with a free consultation
                     </p>
 
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-6">
-                    <h3 class="text-bold">Address</h3>
+                    <h5 class="text-bold">Address</h5>
                     <p class="small-paragraph text-light">
                         Travel Bag (Pvt) Ltd <br>
                         U.G 46, People's park, <br>
@@ -32,12 +33,12 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
 
                     <div class="row">
-                        <h3 class="text-bold">Hotline</h3>
-                        <p class="small-paragraph text-light">011 3671 616</p>
+                        <h5 class="text-bold">Hotline</h5>
+                        <p class="small-paragraph text-light">(+94) 114 395 800</p>
                     </div>
 
                     <div class="row">
-                        <h3 class="text-bold">Email</h3>
+                        <h5 class="text-bold">Email</h5>
                         <p class="small-paragraph text-light">info@travelbag.biz</p>
                     </div>
 

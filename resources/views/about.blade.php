@@ -23,16 +23,21 @@
             <!-- vision -->
             <div class="col-lg-4 col-md-12 col-sm-12 text-center ps-3 pe-3 ">
                 <h1 class="text-white sub-header mb-2">Our Vision</h1>
-                <p class="text-white regular-paragraph">
-                    To accomplish and keep up with the most elevated principles of an industry leader in Sri Lanka and all around the world.
-                </p>
+                <ul class="text-white regular-paragraph">
+                    <li>To Maximize the market size of the company.</li>
+                    <li>To Gain Direct Customers/Give quality service to the Customer.</li>
+                </ul>
             </div>
             <!-- /vision -->
 
             <!-- mission -->
             <div class="col-lg-4 col-md-12 col-sm-12 text-center ps-3 pe-3">
                 <h1 class="text-white sub-header mb-2">Our Mission</h1>
-                <p class="text-white regular-paragraph">To be experts in proviiong personalized travel products and services to the satisfaction of our clients.</p>
+                <p class="text-white regular-paragraph">
+                    To achieve excellence in sales and marketing of high quality Service and meet the expectations of the 
+                    stakeholders through a dedicated team of professionals and a loyal & efficient dealer network and by 
+                    providing total services exceeding customer expectations.
+                </p>
             </div>
             <!-- /mission -->
 
