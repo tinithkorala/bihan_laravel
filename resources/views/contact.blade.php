@@ -39,7 +39,7 @@
     
                         <div class="row">
                             <h5 class="text-bold">Email</h5>
-                            <p class="small-paragraph text-light">info@travelbag.biz</p>
+                            <p class="small-paragraph text-light mb-0">info@travelbag.biz</p>
                         </div>
     
                     </div>
