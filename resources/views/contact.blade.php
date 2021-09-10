@@ -4,7 +4,7 @@
 
 <div class="container">
      
-    <div class="row w-100 mt-4">
+    <div class="row w-100 mt-5">
 
         <!-- contact details -->
         <div class="col-lg-6 col-md-12 col-sm-12">
