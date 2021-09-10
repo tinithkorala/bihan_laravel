@@ -44,7 +44,7 @@
     
                     </div>
     
-                    <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="col-sm-12 col-md-12 col-lg-6" id="social-media-links">
                         <a class="decoration-none" href="https://www.facebook.com/TheTravelbagglobal/?ref=page_internal">
                             <img src="./images/icon_facebook.svg" alt="" width="25" height="25" class="me-2">
                             <h5 class="text-bold mb-0">Follow us on Facebook</h5>
