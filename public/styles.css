@@ -71,6 +71,14 @@ body{
     text-align: justify;
 }
 
+.decoration-none , .decoration-none:hover{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
 /* ======================= NAVBAR STYLES ======================== */
 
 nav * {
